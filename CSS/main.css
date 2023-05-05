@@ -1,0 +1,77 @@
+body{
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-template-rows: 400px 400px;
+    width: 800px;
+    margin: 100px auto;
+    height: 700px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.introdução{
+    grid-column: 1 / 2;
+    background-image: radial-gradient(circle at 0% 0%, #ffaa33 0, #ff9b3e 10%, #ff8a46 20%, #ff784d 30%, #ff6651 40%, #f25353 50%, #dc4253 60%, #c83354 70%, #b52854 80%, #a51f55 90%, #961a57 100%);    color: white;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    height: 600px;
+}
+
+.login{
+    grid-column: 2 / 3;
+    background-color: rgb(255, 255, 255);
+    height: 600px; 
+    padding: 50px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 3em;
+    text-align: center;
+}
+
+.subtitulo{
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+
+
+
+.redes{
+    
+}
+
+.redes ul{
+padding: 0;
+}
+
+.redes li{
+    display: inline-block;
+    list-style: none;
+}
+
+.redes a{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-size: 1.75em;
+    border: 1px solid rgb(156, 156, 156);
+    padding: 10px;
+    border-radius: 50%;  
+}
+.redes a:hover{
+    transition: all .3;
+    background-image: radial-gradient(circle at 50% 50%, #ffaa33 0, #ff9b3e 10%, #ff8a46 20%, #ff784d 30%, #ff6651 40%, #f25353 50%, #dc4253 60%, #c83354 70%, #b52854 80%, #a51f55 90%, #961a57 100%);    color: white;
+    border: transparent 1px solid;
+}
+
+label{
+    padding: 0;
+}
+
